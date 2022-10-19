@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "name": "Kartik Arian",
+      "email": "kartik@gmail.com",
+      "phone": "01233434544",
+      "id": 2
+    },
+    {
+      "name": "Salman Khan New",
+      "email": "salman@gmail.com",
+      "phone": "017667656888",
+      "id": 3
+    },
+    {
+      "name": "Kamrul Hasan",
+      "email": "kamrul@gmail.com",
+      "phone": "01788654344",
+      "id": 4
+    },
+    {
+      "name": "Jamal Islam",
+      "email": "jamal@gmail.com",
+      "phone": "01766545322",
+      "id": 5
+    },
+    {
+      "name": "Hasim Amla",
+      "email": "hasim@gmail.com",
+      "phone": "09877656433",
+      "id": 6
+    },
+    {
+      "name": "Kusum Sikder New",
+      "email": "kusum@gmail.com",
+      "phone": "01788654321",
+      "id": 7
+    },
+    {
+      "name": "Tutul Hosain",
+      "email": "tutul@gmail.com",
+      "phone": "01655432566",
+      "id": 8
+    },
+    {
+      "name": "Khan Saheb",
+      "email": "khan@gmail.com",
+      "phone": "01877676544",
+      "id": 9
+    }
+  ]
+}
