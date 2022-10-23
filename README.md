@@ -32,7 +32,7 @@ Install my-project with npm
 [Documentation](https://linktodocumentation)
 After install all dependency add
 "json-server": "json-server --watch src/database/db.json --host 127.0.0.1 --port 3002", to your package.json file in "scripts" part as like the bellow package.json file insturction.>>>>>>>>
-## Finaly run app 
+## Finally run app with::
 ```bash
   npm start
 ```
