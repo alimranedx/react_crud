@@ -22,7 +22,7 @@ export default function AddUsers(){
     }
     return(
         <div>
-            <Typography variant='h3'>Add User</Typography>
+            <Typography variant='h4' style={{color: '#1565C0', fontWeight: 'bold', marginTop: '20px'}}>Add User</Typography>
                 <FormGroup style={{width: '60%', margin: 'auto' }}>
                     <FormControl style={{marginTop: '20px'}}>
                         <InputLabel htmlFor="name">Name</InputLabel>

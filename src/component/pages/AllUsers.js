@@ -1,4 +1,4 @@
-import {Table, TableHead, TableRow, TableCell, TableBody, Button} from '@mui/material';
+import {Table, TableHead, TableRow, TableCell, TableBody, Button, Grid, Item, Typography} from '@mui/material';
 import { useEffect, useState } from 'react';
 import {getUser, deleteUser} from '../../services/Api';
 import { Link } from 'react-router-dom';
@@ -18,7 +18,17 @@ export default function AllUsers(){
     }
     return(
         <div>
-            <h2>All Usres List</h2>
+            
+            <Grid container spacing={2}>
+                <Grid item xs={8}>
+                <Typography variant='h3' align='right' style={{color: '#1565C0', fontWeight: 'bold', margin: '20px 0 20px 20px'}}>All Usres List</Typography>
+                </Grid>
+                <Grid item xs={4}>
+                  <Button variant="contained" style={{margin: '35px 0 20px 43px'}} component={Link} to='/addUsers'>Add Users</Button>
+                </Grid>
+            </Grid>
+
+            
             <Table style={{width: '80%', margin: 'auto'}}>
                 <TableHead style={{background: 'black'}}>
                     <TableRow>

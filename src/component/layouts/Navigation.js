@@ -15,7 +15,7 @@ import AdbIcon from '@mui/icons-material/Adb';
 
 import {Link} from 'react-router-dom';
 
-const pages = ['home', 'about', 'addUsers', 'allUsers'];
+const pages = ['home', 'about', 'addUsers', 'allUsers', 'useReducerExample'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 const Navigation = () => {
